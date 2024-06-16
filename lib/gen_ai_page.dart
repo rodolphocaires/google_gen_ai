@@ -40,7 +40,14 @@ class _GenAIPageState extends State<GenAIPage> {
         aiResponse = response.text!;
         isLoading = false;
       });
+      textEditingController.clear();
     }
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    textEditingController.dispose();
   }
 
   @override
