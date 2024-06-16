@@ -1,6 +1,5 @@
+import 'package:ai_app/gen_ai_page.dart';
 import 'package:flutter/material.dart';
-
-import 'home_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});

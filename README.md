@@ -1,16 +1,9 @@
-# ai_app
+# Google Generative AI app
 
-A new Flutter project.
+Sample app that uses Google Generative AI to receive an input text and present the response, just like Chat GPT or Google's Gemini
 
-## Getting Started
+## Setup
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You need to set your API_KEY, you can get one at https://aistudio.google.com/app/apikey
+Then you can set it your Run Configurations as follows: 
+![api_key.png](api_key.png)
